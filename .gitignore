@@ -1,3 +1,5 @@
 **/.DS_Store
 **/.ipynb_checkpoints
 **/.OTTER_LOG
+__pycache__/
+.*.swp
