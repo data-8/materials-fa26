@@ -1,0 +1,24 @@
+name: Lecture Notebook Accessibility Checks
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'lec/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Scan notebooks for accessibility issues
+        uses: berkeley-cdss/jupyterlab-a11y-checker@main
+        with:
+          files: "lec/**/*.ipynb"
