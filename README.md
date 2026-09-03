@@ -1,5 +1,7 @@
 # Data 8 Public Materials for Fall 2026
 
+[![Lecture Notebook Accessibility Checks](https://github.com/data-8/materials-fa26/actions/workflows/lecture-a11y.yml/badge.svg)](https://github.com/data-8/materials-fa26/actions/workflows/lecture-a11y.yml)
+
 This repository contains the publicly available materials used in the Data C8: Foundations of Data Science course during the Fall 2026 semester at UC Berkeley.
 
 This includes:
