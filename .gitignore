@@ -3,3 +3,4 @@
 **/.OTTER_LOG
 __pycache__/
 .*.swp
+.claude/settings.local.json
